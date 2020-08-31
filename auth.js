@@ -3,7 +3,7 @@ let region = 'us-east-1';
 let poolId = 'us-east-1_qIa3RwxYd'; //Cognito User Pool
 let clientId = 'm87j0rj027fl0r453jjf2pfsd'; //Cognito User Pool App
 let appDomain = 'octankoffshore.auth.us-east-1.amazoncognito.com';
-let endpoint = "https://6s5szhok0h.execute-api.us-east-1.amazonaws.com/cognito"; //API Endpoint URL
+let endpoint = "https://6s5szhok0h.execute-api.us-east-1.amazonaws.com/"; //API Endpoint URL
 let authData = {
     ClientId : clientId, 
     AppWebDomain : appDomain,
